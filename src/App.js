@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className="bg-black h-full relative">
-    <div className={`fixed bottom-0 right-0 md:right-7 mb-4 md:mr-4 ${openedFAB && selectedOption && "flex"}`} >
+    <div className={`fixed bottom-0 right-0 md:right-7 mdmb-4 md:mr-4 ${openedFAB && selectedOption && "flex"}`} >
     {
       openedFAB  && !selectedOption && (
         <FloatingNavbar updateOptionsFromChild={updateOptionsFromChild} selectedOption={selectedOption}   />
@@ -40,13 +40,13 @@ const App = () => {
       }
         <div className="flex items-end justify-end">
         <HorizontalFnav />
-          <img id="desktopFAB" src={openedFAB?"/images/cross.png":"/images/desktopFAB.png"} className = {`h-8 w-8 md:h-12 w-12 md:h-15 md:w-15 cursor-pointer transition-opacity duration-300`} onClick={()=>setOpenedFAB(!openedFAB)} />
+          <img id="desktopFAB" src={openedFAB?"/images/cross.png":"/images/desktopFAB.png"} className = {`h-12 w-12 md:h-15 md:w-15 cursor-pointer transition-opacity duration-300`} onClick={()=>setOpenedFAB(!openedFAB)} />
         </div>
       </div>
         </>
     ):
     <div className="flex flex-col items-end">
-          <img id="desktopFAB" src={openedFAB?"/images/cross.png":"/images/desktopFAB.png"} className = {`h-14 w-14  cursor-pointer transition-opacity duration-300`} onClick={()=>setOpenedFAB(!openedFAB)} />
+          <img id="desktopFAB" src={openedFAB?"/images/cross.png":"/images/desktopFAB.png"} className = {`h-12 w-12 md:h-15 md:w-15 cursor-pointer transition-opacity duration-300`} onClick={()=>setOpenedFAB(!openedFAB)} />
     </div>}
     
     </div>

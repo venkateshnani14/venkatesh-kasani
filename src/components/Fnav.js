@@ -6,7 +6,7 @@ export const FloatingNavbar = ({updateOptionsFromChild,selectedOption}) => {
         <div className="flex flex-col items-end">
         <div className="flex items-center">
             <span className="bg-white px-2 py-1 text-xs h-full text-black rounded cursor-pointer" onClick={() => {
-              updateOptionsFromChild(!selectedOption,"issue");
+              updateOptionsFromChild(!selectedOption,"Report an issue");
             }}>
               Report an issue
             </span>
@@ -46,10 +46,10 @@ export const FloatingNavbar = ({updateOptionsFromChild,selectedOption}) => {
 export const HorizontalFnav = () => {
   return(
     <div className="flex">
-        <img src="/images/chat.png" className="h-14 w-14" />
-        <img src="/images/suggestions.png" className=" h-14 w-14"/>
-        <img src="/images/feedback.png" className="h-14 w-14"/>
-        <img src="/images/flag.png" className="h-14 w-14" />
+        <img src="/images/chat.png" className="ml-2 h-12 w-12 md:h-15 md:w-15" />
+        <img src="/images/suggestions.png" className="ml-2 h-12 w-12 md:h-15 md:w-15"/>
+        <img src="/images/feedback.png" className="ml-2 h-12 w-12 md:h-15 md:w-15"/>
+        <img src="/images/flag.png" className="ml-2 h-12 w-12 md:h-15 md:w-15" />
       </div>
   )
 }

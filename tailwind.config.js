@@ -10,9 +10,6 @@ module.exports = {
         customgray:"#b4b4b4",
         submitbg:"#686868",
       },
-      // height:{
-      //   200:"200px"
-      // }
     },
   },
   plugins: [],

@@ -4,7 +4,7 @@ import {options,defaultValue,dropDownStyles} from '../Helpers/constants'
 
 export const IssueScreen = (props) => {
     return(
-        <div className="bg-smokewhite w-full h-2/3  md:w-[64.4%] md:h-[99.6%] px-1 md:px-3 rounded mr-1 my-1 md:mr-2 md:my-2">
+        <div className="bg-smokewhite w-full h-2/3  md:w-[64.4%] md:h-[99.6%] px- md:px-3 rounded mr-1 my-1 md:mr-2 md:my-2">
          <form>
          <h2 className="px-4 text-center font-semibold py-3">{props.heading}</h2>
          <hr className='border border-1 border-gray-300'/>
