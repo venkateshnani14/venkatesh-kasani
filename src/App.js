@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className="bg-black h-full relative">
-    <div className={`fixed bottom-0 right-0 md:right-7 mdmb-4 md:mr-4 ${openedFAB && selectedOption && "flex"}`} >
+    <div className={`fixed bottom-0 right-0 md:right-7 md:mb-4 md:mr-4 ${openedFAB && selectedOption && "flex"}`} >
     {
       openedFAB  && !selectedOption && (
         <FloatingNavbar updateOptionsFromChild={updateOptionsFromChild} selectedOption={selectedOption}   />

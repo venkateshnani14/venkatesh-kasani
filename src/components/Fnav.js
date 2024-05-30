@@ -1,8 +1,6 @@
 export const FloatingNavbar = ({updateOptionsFromChild,selectedOption}) => {
     return (
        <div>
-        {/* the options should be configurable customized to each page. */}
-        {/* MAKE THESE A COMPONENT AND REUSE IT FOR BETTER CODE */}
         <div className="flex flex-col items-end">
         <div className="flex items-center">
             <span className="bg-white px-2 py-1 text-xs h-full text-black rounded cursor-pointer" onClick={() => {
